@@ -53,6 +53,17 @@
   height: 5vh;
   font-family: 'Courier New', Courier, monospace;
   font-size: 2em;
+  margin: 1%;
+}
+
+#vanish
+{
+  position: relative;
+  width: 50%;
+  background-color: #7385de;
+  height: 5vh;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2em;
 }
 
 body

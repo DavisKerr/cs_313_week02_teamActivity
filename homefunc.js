@@ -48,4 +48,21 @@ $(document).ready(function(){
 
   });
 
+  $("#vanish").click(function(){
+
+    divider = $(".colorful").last();
+    if(divider.css("display") == 'flex')
+    {
+      divider.css("display", "none");
+      $("#vanish").text("Reappear");
+    }
+    else
+    {
+      divider.css("display", "flex");
+      $("#vanish").text("Vanish");
+    }
+    
+
+  });
+
 });
