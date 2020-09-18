@@ -32,6 +32,7 @@ function validateColor(color)
 
 $(document).ready(function(){
   
+  $("#errorMsg").css('display', 'hidden');
 
   $("#colorChange").click(function(){
 
@@ -40,9 +41,11 @@ $(document).ready(function(){
     {
       $(".colorful").first().css("background-color", color);
       $("color").val('');
+      $("#errorMsg").css('display', 'hidden');
     }
     else
     {
+      $("#errorMsg").css('display', 'relative');
       $("#errorMsg").text('Invalid hex code. Please us the format #000000');
     }
 
