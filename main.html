@@ -8,6 +8,19 @@
     <title>Three Clever Divs</title>
   </head>
   <body>
+    <div id="form">
+      <div class="formPart">
+        <label for="color">Enter a hex Color:</label>
+        <input type="text" id="color" hint="Type a hexidecimal color value">
+      </div>
+      <div class="formPart">
+        <button id="colorChange" onclick="changeColor()">Change Color</button>
+      </div>
+      <div class="formPart">
+        <span id="errorMsg"></span>
+      </div>
+      
+    </div>
     <div class="colorful">
       <span>Div number one</span>
     </div>
