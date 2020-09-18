@@ -4,23 +4,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="homestyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="homefunc.js"></script>
     <title>Three Clever Divs</title>
   </head>
   <body>
+    <h1>Magic Divs</h1>
     <div id="form">
       <div class="formPart">
         <label for="color">Enter a hex Color:</label>
         <input type="text" id="color" hint="Type a hexidecimal color value">
-      </div>
+      </div> <!--End Form Part-->
       <div class="formPart">
-        <button id="colorChange" onclick="changeColor()">Change Color</button>
+        <button id="colorChange">Change Color</button>
       </div>
       <div class="formPart">
         <span id="errorMsg"></span>
       </div>
-      
-    </div>
+    </div> <!--End Form-->
     <div class="colorful">
       <span>Div number one</span>
     </div>
